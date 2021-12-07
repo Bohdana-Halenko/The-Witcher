@@ -1,0 +1,22 @@
+.card__video {
+  flex-basis: 285px;
+}
+.card__video-img {
+  height: 146px;
+  width: 285px;
+  object-fit: cover;
+  object-position: center;
+  margin-bottom: 10px;
+}
+.card__img {
+  flex-basis: 255px;
+}
+.card__phoyo-img {
+  height: 206px;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+.card__product {
+  flex-basis: 285px;
+}
