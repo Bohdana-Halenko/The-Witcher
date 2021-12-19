@@ -24,3 +24,18 @@
 .present-hero {
   margin-bottom: 30px;
 }
+@media (min-height: 900px) {
+  .present {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+  }
+  .present__container {
+    flex-grow: 1;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    max-height: 1100px;
+  }
+}
