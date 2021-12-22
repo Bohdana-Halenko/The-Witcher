@@ -35,10 +35,26 @@
   display: none;
 }
 @media (max-width: 750px) {
+  .navigation {
+    position: relative;
+  }
   .navigation__list {
     display: none;
   }
   .navigation__btn {
     display: block;
+  }
+  .navigation__list_active {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 35px;
+    right: 0;
+    gap: 10px;
+  }
+  .navigation__link {
+    display: block;
+    width: 32px;
+    height: 32px;
   }
 }
