@@ -10,6 +10,7 @@
 .present__tagline {
   line-height: 130%;
   margin-bottom: 54px;
+  max-width: 350px;
 }
 .present__btn {
   display: block;
@@ -38,4 +39,41 @@
     justify-content: space-around;
     max-height: 1100px;
   }
+}
+
+@media (max-width: 1000px) {
+  .present {
+    padding-top: 25px;
+    padding-bottom: 10px;
+  }
+  .present__title {
+    font-size: 70px;
+  }
+  .present__tagline {
+    max-width: 290px;
+    margin-bottom: 28px;
+  }
+  .present__btn {
+    width: 246px;
+    height: 59px;
+  }
+}
+
+@media (max-width: 850px) {
+  .present {
+    padding-top: 58px;
+    padding-bottom: 0;
+  }
+  .present__title {
+    font-size: 60px;
+  }
+  .present__tabs {
+    margin-top: -26px;
+  }
+}
+
+@media (max-width: 750px) {
+}
+
+@media (max-width: 480px) {
 }
