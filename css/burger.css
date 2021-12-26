@@ -1,3 +1,4 @@
+/*------------------Burger-------------------*/
 .burger {
   --width: 22px;
   --height: 12px;
@@ -33,9 +34,11 @@
   background-color: var(--color);
   transition: transform 0.3s, top 0.3s;
 }
+
 .burger:before {
   top: 0;
 }
+
 .burger:after {
   top: calc(100% - var(--size-line));
 }
@@ -43,10 +46,12 @@
 .burger_active .burger__line {
   transform: scale(0);
 }
+
 .burger_active:before {
   top: 50%;
   transform: rotate(45deg);
 }
+
 .burger_active:after {
   top: 50%;
   transform: rotate(-45deg);
